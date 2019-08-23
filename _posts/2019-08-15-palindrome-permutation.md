@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "CTCI 1.4. Palindrome Permutation"
-categories: [interview]
+categories: [ctci]
 excerpt: "Given a string, write a function to check if it is a permutation of a palindrome."
-tags: ["ctci"]
+tags: ["interview"]
 ---
 
 > Given a string, write a function to check if it is a permutation of a palindrome. A palindrome is a word or phrase that is the same forwards and backwards. A permutationis a rearrangement of letters. The palindrome does not need to be limited to just dictionary words.

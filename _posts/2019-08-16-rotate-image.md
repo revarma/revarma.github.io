@@ -2,8 +2,8 @@
 layout: post
 title: "CTCI 1.7. Rotate Image"
 excerpt: "Given an image represented by an NxN matrix, where each pixel in the image is 4 bytes, write a method to rotate the image by 90 degrees."
-categories: [interview]
-tags: ["ctci"]
+categories: [ctci]
+tags: ["interview"]
 ---
 
 > Given an image represented by an NxN matrix, where each pixel in the image is 4 bytes, write a method to rotate the image by 90 degrees. Can you do this in place?

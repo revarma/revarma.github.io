@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "EPI 4.1. Count Bits of binary number"
-categories: [interview]
+categories: [epi]
 excerpt: "Count number of 1`s present in a binary representation of a number using Bit Manipulation"
-tags: ["epi"]
+tags: ["interview"]
 ---
 
 > Count number of 1`s present in a binary representation of a number using Bit Manipulation. 

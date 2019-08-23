@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "CTCI 1.2. Check Permutations"
-categories: [interview]
+categories: [ctci]
 excerpt: "Given two strings, write a method to decide if one is a permutation of the other."
-tags: ["ctci"]
+tags: ["interview"]
 ---
 
 > Given two strings, write a method to decide if one is a permutation of the other.
