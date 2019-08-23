@@ -6,7 +6,9 @@ categories: [interview]
 tags: ["ctci"]
 ---
 
-#### Rotate Matrix: Given an image represented by an NxN matrix, where each pixel in the image is 4 bytes, write a method to rotate the image by 90 degrees. Can you do this in place?
+> Given an image represented by an NxN matrix, where each pixel in the image is 4 bytes, write a method to rotate the image by 90 degrees. Can you do this in place?
+
+
 > ` [1, 2, 3]         [1, 4, 7]
 > ` [4, 5, 6]    to   [2, 5, 8]
 > ` [7, 8, 9]         [3, 6, 9]
