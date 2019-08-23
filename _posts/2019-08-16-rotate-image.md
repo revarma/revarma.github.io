@@ -2,7 +2,7 @@
 layout: post
 title: "CTCI 1.7. Rotate Image"
 excerpt: "Given an image represented by an NxN matrix, where each pixel in the image is 4 bytes, write a method to rotate the image by 90 degrees."
-categories: [ctci]
+categories: ["Cracking the Coding Interviews"]
 tags: ["interview"]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "CTCI 1.6. String Compression"
 excerpt: "Implement a method to perform basic string compression using the counts of repeated characters."
-categories: [ctci]
+categories: ["Cracking the Coding Interviews"]
 tags: ["interview"]
 ---
 

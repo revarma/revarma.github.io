@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CTCI 1.4. Palindrome Permutation"
-categories: [ctci]
+categories: ["Cracking the Coding Interviews"]
 excerpt: "Given a string, write a function to check if it is a permutation of a palindrome."
 tags: ["interview"]
 ---
