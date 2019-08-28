@@ -5,7 +5,7 @@ categories: [micro-skill]
 excerpt: "Resources to understand Dynamic Programming."
 ---
 
-1. [Julia Evans Blog Post](https://jvns.ca/blog/2019/08/27/curl-exercises/)
+[Julia Evans Blog Post](https://jvns.ca/blog/2019/08/27/curl-exercises/)
 
 > The idea is that you find a small micro-skill that can be learned in maybe 3 sessions of 45 minutes, and focus on learning that micro-skill.
 
