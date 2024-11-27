@@ -6,7 +6,7 @@ author: "Eswara Rudraraju"
 published: true
 ---
 
-#### What
+#### What:
 The concept of an **"architecture sinkhole"** refers to the practice of designing software or systems in such a way that they consume significant resources while providing limited benefits or value. 
 
 It can be described as a structure that does not perform its intended function well and instead creates a waste of time, money, or energy.
@@ -20,8 +20,9 @@ Overall, an architecture sinkhole refers to any situation where a software or sy
 #### Example:
 In an N-layered architecture, when a request passes from the User Interface (UI) layer directly to the Persistent Layer without incorporating any business rules in either the Business or Service Layers, the purpose of these layers during that request cycle is merely to create objects. **This can result in unnecessary memory usage as objects are created but not utilized beyond their creation process**.
 
+```
 UI-Layer ➡️ Business-Layer ➡️ Service-Layer ➡️ Database
+```
 
-
-#### What tradeoffs to consider
+#### What tradeoffs to consider:
 Maintain an oversight of your N-layered architecture to ensure that no more than 20% of your endpoints have sinkholes. If this percentage exceeds, consider a strategic reconfiguration of your architecture.

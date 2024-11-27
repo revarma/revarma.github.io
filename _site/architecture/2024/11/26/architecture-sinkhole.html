@@ -8,8 +8,8 @@
 <meta property="og:title" content="Architecture Sinkhole" />
 <meta name="author" content="Eswara Rudraraju" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="What The concept of an “architecture sinkhole” refers to the practice of designing software or systems in such a way that they consume significant resources while providing limited benefits or value." />
-<meta property="og:description" content="What The concept of an “architecture sinkhole” refers to the practice of designing software or systems in such a way that they consume significant resources while providing limited benefits or value." />
+<meta name="description" content="What: The concept of an “architecture sinkhole” refers to the practice of designing software or systems in such a way that they consume significant resources while providing limited benefits or value." />
+<meta property="og:description" content="What: The concept of an “architecture sinkhole” refers to the practice of designing software or systems in such a way that they consume significant resources while providing limited benefits or value." />
 <link rel="canonical" href="http://localhost:4000/architecture/2024/11/26/architecture-sinkhole.html" />
 <meta property="og:url" content="http://localhost:4000/architecture/2024/11/26/architecture-sinkhole.html" />
 <meta property="og:site_name" content="Four White Spaces" />
@@ -18,7 +18,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Architecture Sinkhole" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Eswara Rudraraju"},"dateModified":"2024-11-26T00:00:00-06:00","datePublished":"2024-11-26T00:00:00-06:00","description":"What The concept of an “architecture sinkhole” refers to the practice of designing software or systems in such a way that they consume significant resources while providing limited benefits or value.","headline":"Architecture Sinkhole","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/architecture/2024/11/26/architecture-sinkhole.html"},"url":"http://localhost:4000/architecture/2024/11/26/architecture-sinkhole.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Eswara Rudraraju"},"dateModified":"2024-11-26T00:00:00-06:00","datePublished":"2024-11-26T00:00:00-06:00","description":"What: The concept of an “architecture sinkhole” refers to the practice of designing software or systems in such a way that they consume significant resources while providing limited benefits or value.","headline":"Architecture Sinkhole","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/architecture/2024/11/26/architecture-sinkhole.html"},"url":"http://localhost:4000/architecture/2024/11/26/architecture-sinkhole.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -51,7 +51,7 @@
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <h4 id="what">What</h4>
+    <h4 id="what">What:</h4>
 <p>The concept of an <strong>“architecture sinkhole”</strong> refers to the practice of designing software or systems in such a way that they consume significant resources while providing limited benefits or value.</p>
 
 <p>It can be described as a structure that does not perform its intended function well and instead creates a waste of time, money, or energy.</p>
@@ -65,9 +65,10 @@
 <h4 id="example">Example:</h4>
 <p>In an N-layered architecture, when a request passes from the User Interface (UI) layer directly to the Persistent Layer without incorporating any business rules in either the Business or Service Layers, the purpose of these layers during that request cycle is merely to create objects. <strong>This can result in unnecessary memory usage as objects are created but not utilized beyond their creation process</strong>.</p>
 
-<p>UI-Layer ➡️ Business-Layer ➡️ Service-Layer ➡️ Database</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>UI-Layer ➡️ Business-Layer ➡️ Service-Layer ➡️ Database
+</code></pre></div></div>
 
-<h4 id="what-tradeoffs-to-consider">What tradeoffs to consider</h4>
+<h4 id="what-tradeoffs-to-consider">What tradeoffs to consider:</h4>
 <p>Maintain an oversight of your N-layered architecture to ensure that no more than 20% of your endpoints have sinkholes. If this percentage exceeds, consider a strategic reconfiguration of your architecture.</p>
 
   </div><a class="u-url" href="/architecture/2024/11/26/architecture-sinkhole.html" hidden></a>
