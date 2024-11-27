@@ -18,14 +18,10 @@ Another type of architecture sinkhole is when a system fails to meet its intende
 Overall, an architecture sinkhole refers to any situation where a software or systems design fails to deliver the expected results or value, causing waste and inefficiency.
 
 #### Example:
-In an N-layered architecture, when a request passes from the User Interface (UI) layer directly to the Persistent Layer without incorporating any business rules in either the Business or Service Layers, the purpose of these layers during that request cycle is merely to create objects. ==This can result in unnecessary memory usage as objects are created but not utilized beyond their creation process==."
+In an N-layered architecture, when a request passes from the User Interface (UI) layer directly to the Persistent Layer without incorporating any business rules in either the Business or Service Layers, the purpose of these layers during that request cycle is merely to create objects. **This can result in unnecessary memory usage as objects are created but not utilized beyond their creation process**.
 
-```mermaid
-graph LR;
-    A@{ shape: circle, label: "request" }-->UI-Layer-->Business-Layer;
-    Business-Layer-->Service-Layer;
-    Service-Layer-->id1[(Database)];
-```
+UI-Layer ➡️ Business-Layer ➡️ Service-Layer ➡️ Database
+
 
 #### What tradeoffs to consider
 Maintain an oversight of your N-layered architecture to ensure that no more than 20% of your endpoints have sinkholes. If this percentage exceeds, consider a strategic reconfiguration of your architecture.
