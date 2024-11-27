@@ -3,21 +3,22 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Four White Spaces | Welcome to my blog, where I document the things that spark my curiosity in the world of technology. From tips and emerging tools to intriguing software trends and personal insights, this blog is a collection of what I find interesting and worth exploring.</title>
+<title>Orchestration vs. Choreography in a service based architecture | Four White Spaces</title>
 <meta name="generator" content="Jekyll v3.10.0" />
-<meta property="og:title" content="Four White Spaces" />
+<meta property="og:title" content="Orchestration vs. Choreography in a service based architecture" />
 <meta name="author" content="Eswara Rudraraju" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Welcome to my blog, where I document the things that spark my curiosity in the world of technology. From tips and emerging tools to intriguing software trends and personal insights, this blog is a collection of what I find interesting and worth exploring." />
-<meta property="og:description" content="Welcome to my blog, where I document the things that spark my curiosity in the world of technology. From tips and emerging tools to intriguing software trends and personal insights, this blog is a collection of what I find interesting and worth exploring." />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
+<meta name="description" content="Orchestration and Choreography are required when multiple services must be coordinated to complete a certain business transaction." />
+<meta property="og:description" content="Orchestration and Choreography are required when multiple services must be coordinated to complete a certain business transaction." />
+<link rel="canonical" href="http://localhost:4000/architecture/2024/11/26/Orchestration-vs.-Choreography-in-software-systems.html" />
+<meta property="og:url" content="http://localhost:4000/architecture/2024/11/26/Orchestration-vs.-Choreography-in-software-systems.html" />
 <meta property="og:site_name" content="Four White Spaces" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-11-26T00:00:00-06:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Four White Spaces" />
+<meta property="twitter:title" content="Orchestration vs. Choreography in a service based architecture" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"Eswara Rudraraju"},"description":"Welcome to my blog, where I document the things that spark my curiosity in the world of technology. From tips and emerging tools to intriguing software trends and personal insights, this blog is a collection of what I find interesting and worth exploring.","headline":"Four White Spaces","name":"Four White Spaces","url":"http://localhost:4000/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Eswara Rudraraju"},"dateModified":"2024-11-26T00:00:00-06:00","datePublished":"2024-11-26T00:00:00-06:00","description":"Orchestration and Choreography are required when multiple services must be coordinated to complete a certain business transaction.","headline":"Orchestration vs. Choreography in a service based architecture","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/architecture/2024/11/26/Orchestration-vs.-Choreography-in-software-systems.html"},"url":"http://localhost:4000/architecture/2024/11/26/Orchestration-vs.-Choreography-in-software-systems.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,24 +41,26 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home">
-<h2 class="post-list-heading">Posts</h2>
-    <ul class="post-list"><li><span class="post-meta">Nov 26, 2024</span>
-        <h3>
-          <a class="post-link" href="/architecture/2024/11/26/architecture-sinkhole.html">
-            Architecture Sinkhole
-          </a>
-        </h3></li><li><span class="post-meta">Nov 26, 2024</span>
-        <h3>
-          <a class="post-link" href="/architecture/2024/11/26/Orchestration-vs.-Choreography-in-software-systems.html">
-            Orchestration vs. Choreography in a service based architecture
-          </a>
-        </h3></li><li><span class="post-meta">Nov 12, 2024</span>
-        <h3>
-          <a class="post-link" href="/architecture/2024/11/12/fundamentals-of-software-architecture.html">
-            The Fundamentals of Software Architecture
-          </a>
-        </h3></li></ul></div>
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Orchestration vs. Choreography in a service based architecture</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2024-11-26T00:00:00-06:00" itemprop="datePublished">Nov 26, 2024
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Eswara Rudraraju</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Orchestration and Choreography are required when multiple services must be coordinated to complete a certain business transaction.</p>
+
+<p><strong>Orchestration</strong> is the coordination of multiple services through the use of a separate mediator service that controls and manages the workflow of the transaction (like a conductor in an orchestra).</p>
+
+<p><strong>Choreography</strong>, on the other hand, is the coordination of multiple services by which each service talks to one another without the use of a central mediator (like dancers in a dance).</p>
+
+<p>As services become more fine-grained, both orchestration and choreography are necessary to tie the services together to complete the business transaction.</p>
+
+  </div><a class="u-url" href="/architecture/2024/11/26/Orchestration-vs.-Choreography-in-software-systems.html" hidden></a>
+</article>
 
       </div>
     </main><footer class="site-footer h-card">
