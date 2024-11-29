@@ -13,3 +13,5 @@ Orchestration and Choreography are required when multiple services must be coord
 **Choreography**, on the other hand, is the coordination of multiple services by which each service talks to one another without the use of a central mediator (like dancers in a dance). 
 
 As services become more fine-grained, both orchestration and choreography are necessary to tie the services together to complete the business transaction.
+
+*Additional Resources*: https://cloud.google.com/blog/topics/developers-practitioners/service-orchestration-google-cloud
